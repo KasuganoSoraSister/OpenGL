@@ -1,0 +1,13 @@
+﻿  MainWindow.cpp
+c:\users\admin\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\glutWindow.hpp(43): warning C4477: “sprintf”: 格式字符串“%lld”需要类型“__int64”的参数，但可变参数 1 拥有了类型“unsigned long”
+  c:\users\admin\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\glutWindow.hpp(43): note: 请考虑在格式字符串中使用“%ld”
+c:\users\admin\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\glutWindow.hpp(43): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: 参见“sprintf”的声明
+c:\users\admin\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\glutWindow.hpp(86): warning C4101: “r”: 未引用的局部变量
+c:\users\admin\documents\visual studio 2017\projects\consoleapplication8\consoleapplication8\glutWindow.hpp(103): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  1 of 419 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ConsoleApplication8.vcxproj -> C:\Users\admin\Documents\Visual Studio 2017\Projects\ConsoleApplication8\Release\4.exe

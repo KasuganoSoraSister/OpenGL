@@ -1,7 +1,8 @@
 #include "stdafx.h"
 #include <math.h>
 #include "MainWindow.h"
-
+#include "memory"
+#include "iostream"
 
 MainWindow* MW;
 
@@ -29,8 +30,23 @@ void main(int argc, char** argv)
 	param lp = { argc,argv };
 	HANDLE h = CreateThread(0, 0, mainThread, (LPVOID)& lp, 0, 0);
 	Sleep(2000);
-	
-	MW->drawLine(new Line({ 100,100 }, { 200,200 }));
+	//Line* l;
+	//MW->drawLine(l = new Line({ 100,100 }, { 100,200 }));
+	//MW->drawLine(new Line({ 100,100 }, { 200,200 }));
+	//MW->drawLine(new Line({ 100,100 }, { 200,100 }));
+	//MW->drawLine(new Line({ 100,200 }, { 200,200 }));
+	//MW->drawLine(new Line({ 200,100 }, { 200,200 }));
+	//MW->drawLine(new Line({ 100,200 }, { 200,100 }));
+	//l->setStart();
+
+	;
+	//std::cout << std::shared_ptr<Line>(new Line({ 300,150 }, { 300,250 })).get()->getEnd().x << endl;
+
+	//MW->drawLine();
+	//MW->drawLine(std::auto_ptr<Line>(new Line({ 300,150 }, { 300,250 })).get());
+
+
+	MW->text(L"OpenGL");
 
 	//glutInit(&argc, argv);  // 初始化GLUT环境
 	//glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);   // GLUT显示模式：单缓冲区、RGB颜色模型

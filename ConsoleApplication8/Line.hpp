@@ -17,6 +17,8 @@ public:
 	}
 	virtual inline POINT getStart() { return start; }
 	virtual inline POINT getEnd() { return end; }
+	virtual inline POINT setStart(POINT p = { 0,0 }) { return start = p;}
+	virtual inline POINT setEnd(POINT p = { 0,0 }) {return end = p; }
 
 private:
 	POINT start, end;
